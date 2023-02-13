@@ -1,9 +1,9 @@
 import React from 'react';
-import App from './App';
 import { shallow } from 'enzyme';
+import PageNavigation from '.';
 
-describe('App', () => {
+describe('PageNavigation', () => {
   it('renders without crashing', () => {
-    shallow(<App />);
+    shallow(<PageNavigation />);
   });
 });

@@ -1,6 +1,68 @@
-# Getting Started with Create React App
+# Getting Started with Cocktail
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [CocktailHaven](https://github.com/facebook/create-react-app).
+
+## 🚀 Quick start
+
+1. **Install dependencies/modules**
+
+    ```shell
+    yarn install
+    ```
+
+2. **Start the project**
+
+    ```shell
+     yarn start
+    ```
+
+If everything is correct your project will launch at http://localhost:3000/
+
+## 🧐 What's inside?
+
+A quick look at the top-level files and directories you'll see in a Gatsby project.
+
+ .
+    ├── node_modules
+    ├── public
+    ├── src
+    ├── .gitignore
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
+
+1. **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+
+1. **`/public`**: This directory contains all of the static files to be served, required for the build
+
+1. **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+
+1. **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+
+1. **`yarn.lock`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+
+1. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+1. **`README.md`**: A text file containing useful reference information about your project.
+
+## ⚙️ Technical decisions
+
+This list reflects all the technical decisions that have been made around certain topics.
+
+-------------------------------------------------------------------------------------------------- |
+Context                                                                 |
+| Code formatter                     | Prettier                                                                                           |
+| Linter                             | ESlint                                                                                             |
+| Static Type Checking               | TypeScript                                                                                         |
+| Localization                       | React i18next                                                                                      |
+| Routing                            | React Router                                                                                       |
+| Bundler/build                      | Webpack                                                                                            |
+| Compiler                           | Babel                                                                                              |
+| CSS-in-JS                          | Emotion components                                                                                  |
+| Unit/Integration Testing           | React Testing
+| Preferred Component Design Pattern | Functional Compound Components (https://kentcdodds.com/blog/compound-components-with-react-hooks/)
+Yarn                                                                                               |
+| Task runner                        | Yarn
 
 ## Available Scripts
 
@@ -28,19 +90,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
