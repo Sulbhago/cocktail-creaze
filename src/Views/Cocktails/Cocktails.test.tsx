@@ -13,9 +13,3 @@ jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
   useNavigate: () => (jest.fn())
 }));
-
-describe('ImageListItem', () => {
-  it('should navigate to the correct page when clicked', () => {
-
-  });
-});

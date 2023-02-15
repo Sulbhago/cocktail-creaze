@@ -1,8 +1,9 @@
 import { lazy, Suspense } from 'react'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import { CocktailDetails } from '../CocktailDetails'
+import { CocktailDetails } from '../../Views/CocktailDetails'
 
-const Cocktails = lazy(() => import('../Cocktails'))
+
+const Cocktails = lazy(() => import('../../Views/Cocktails'))
 
 function PageNavigation() {
   return (

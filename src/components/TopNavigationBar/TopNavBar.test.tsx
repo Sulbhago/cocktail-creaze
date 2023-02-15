@@ -7,7 +7,7 @@ import { createMemoryHistory } from 'history'
 
 describe('TopNavBar', () => {
   it('renders without crashing', () => {
-    shallow(<TopNavBar searchValue={''} handelSearch={undefined} />)
+    shallow(<TopNavBar searchValue={''} handelSearch={undefined} showSearch={true}/>)
   })
 })
 
@@ -19,7 +19,7 @@ jest.mock('react-router-dom', () => ({
 describe('TopNavBar', () => {
   test('renders input and load button', () => {
     const { getAllByPlaceholderText } = render(
-      <TopNavBar searchValue={''} handelSearch={undefined} />,
+      <TopNavBar searchValue={''} handelSearch={undefined} showSearch={true}/>,
     )
     const input = getAllByPlaceholderText('Search')
     expect(input).toBeDefined()
@@ -27,7 +27,7 @@ describe('TopNavBar', () => {
 
   test('fetches data on input change', async () => {
     const { queryByPlaceholderText } = render(
-      <TopNavBar searchValue={'test'} handelSearch={undefined} />,
+      <TopNavBar searchValue={'test'} handelSearch={undefined} showSearch={true}/>,
     )
 
     const searchInput = queryByPlaceholderText('Search') as HTMLInputElement

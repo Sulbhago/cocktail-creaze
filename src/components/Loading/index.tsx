@@ -1,8 +1,7 @@
 import * as React from "react";
-import { StyledTypography } from "../Cocktails/styles";
 import { TopNavBar } from "../TopNavigationBar";
+import './loading.css'
 
 export const Loading: React.FC = () => {
-  
-  return( <><TopNavBar searchValue={''} handelSearch={undefined} /><StyledTypography marginTop={10}>Loading...</StyledTypography></>);
+  return( <><TopNavBar searchValue={''} handelSearch={undefined} showSearch={true}/><h1 className="Loading-text">Loading...</h1></>);
 };

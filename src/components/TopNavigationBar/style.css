@@ -1,0 +1,38 @@
+h1, p {
+    font-family: Lato;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .no-pad-left{
+    padding-left : 0 !important;
+  }
+  body{
+    margin: 0;
+  }
+
+  .header{
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .App-toolbar {
+    background-color: #282c34;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .head-text{
+    display: grid;
+    width: 100%;
+    margin: 8px;
+    justify-content: end;
+  }
+
+  .head-search{
+    color: #fff;
+    height: 40px;
+    margin-top: 8px;
+    border: 1px solid white;
+  }
