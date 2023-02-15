@@ -1,6 +1,6 @@
-# Getting Started with Cocktail
+# Getting Started with Cocktail Creaze
 
-This project was bootstrapped with [CocktailHaven](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [CocktailCreaze](https://github.com/Sulbhago/cocktail-creaze).
 
 ## 🚀 Quick start
 
